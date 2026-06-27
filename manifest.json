@@ -1,0 +1,18 @@
+{
+  "name": "Hamburg周边局",
+  "appid": "__UNI__HAMBURG_TRIP",
+  "description": "面向汉堡华人的周边付费活动入口",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "Hamburg周边局"
+      }
+    },
+    {
+      "path": "pages/calendar/index",
+      "style": {
+        "navigationBarTitleText": "活动日历"
+      }
+    },
+    {
+      "path": "pages/activity/detail",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    },
+    {
+      "path": "pages/oyster-guide/index",
+      "style": {
+        "navigationBarTitleText": "赶海攻略"
+      }
+    },
+    {
+      "path": "pages/bobo/index",
+      "style": {
+        "navigationBarTitleText": "Bobo书店"
+      }
+    },
+    {
+      "path": "pages/community/index",
+      "style": {
+        "navigationBarTitleText": "社区预告"
+      }
+    },
+    {
+      "path": "pages/contact/index",
+      "style": {
+        "navigationBarTitleText": "加微信咨询"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hamburg周边局",
+    "navigationBarBackgroundColor": "#f8f4ec",
+    "backgroundColor": "#f8f4ec"
+  },
+  "tabBar": {
+    "color": "#6d7167",
+    "selectedColor": "#243c37",
+    "backgroundColor": "#fffaf1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/calendar/index",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/bobo/index",
+        "text": "书店"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "text": "微信"
+      }
+    ]
+  }
+}
