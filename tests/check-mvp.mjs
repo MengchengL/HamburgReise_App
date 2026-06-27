@@ -81,5 +81,6 @@ const allPageText = requiredFiles
   .map((file) => readText(file))
   .join('\n');
 assert(allPageText.includes('/pages/contact/index'), 'Pages must link to contact page');
+assert(!allPageText.includes(':class="`'), 'Mini program templates must not use template literals in :class');
 
 console.log('MVP structure checks passed');

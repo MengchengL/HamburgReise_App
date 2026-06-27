@@ -13,7 +13,7 @@
           v-for="activity in activities"
           :key="activity.id"
           class="card activity-card"
-          :class="`tone-${activity.coverTone}`"
+          :class="toneClass(activity.coverTone)"
           @tap="openActivity(activity)"
         >
           <view class="activity-kicker">{{ activity.shortTitle }}</view>
@@ -41,6 +41,10 @@ import { activities } from '../../src/data/activities.js';
 
 function go(url) {
   uni.navigateTo({ url });
+}
+
+function toneClass(tone) {
+  return `tone-${tone}`;
 }
 
 function openActivity(activity) {
